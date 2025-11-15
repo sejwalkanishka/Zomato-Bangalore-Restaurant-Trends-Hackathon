@@ -1,0 +1,41 @@
+Zomato-Bangalore-EDA/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── zomato_data.csv
+│   ├── Geographical Coordinates.csv
+│   ├── merged_cleaned.csv
+│
+├── notebooks/
+│   ├── Zomato_Full_Analysis.ipynb
+│   ├── Cleaning_and_Merging.ipynb
+│   ├── Visualizations.ipynb
+│
+├── visuals/
+│   ├── colored_rating_distribution.png
+│   ├── colored_cost_distribution.png
+│   ├── colored_top10_cuisines.png
+│   ├── colored_top10_localities.png
+│   ├── colored_votes_vs_rating.png
+│
+├── maps/
+│   ├── restaurant_density_map.html
+│   ├── italian_restaurants_map_fixed.html
+│   ├── italian_restaurants_filtered_map.html
+│
+├── dashboards/
+│   ├── interactive_dashboard.html
+│   ├── streamlit_zomato_app.py
+│
+├── reports/
+│   ├── Zomato_Full_Report_With_Visuals.pdf
+│   ├── EDA_Presentation.pptx
+│
+└── src/
+    ├── cleaning.py
+    ├── eda.py
+    ├── map_generation.py
+    └── utils.py

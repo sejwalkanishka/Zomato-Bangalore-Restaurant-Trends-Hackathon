@@ -1,0 +1,3 @@
+git clone https://github.com/your-username/Zomato-Bangalore-EDA.git
+cd Zomato-Bangalore-EDA
+pip install -r requirements.txt
